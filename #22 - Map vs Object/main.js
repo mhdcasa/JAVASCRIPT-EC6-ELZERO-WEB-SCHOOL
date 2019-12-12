@@ -1,8 +1,6 @@
 /*
 Map
-*/
-
-
+*/  //
 var user = {} ; //empty Object
 
 user['username'] = "Mehdi";
