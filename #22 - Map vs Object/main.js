@@ -45,7 +45,27 @@ let myMap2 = new Map([
 
 
 
-console.log(myMap2);
+console.log(myMap2)
 
 
+// ====================================================================#23 - Map Methods=================================================================================
+
+console.log("====================================================================#23 - Map Methods=================================================================================");
+
+
+console.log(myMap.size);
+console.log(`number element inside myMap is : ${myMap.size}`);
+
+console.log(`Methode get : ${myMap.get('10')}`);
+
+console.log(`Methode get : ${myMap.get(10)}`);
+
+console.log(`Methode has : ${myMap.has(false)}`);
+
+console.log(`Methode delete : ${myMap.delete(false)}`);
+console.log(`number element inside myMap is : ${myMap.size}`);
+
+myMap.clear();
+
+console.log(`number element inside myMap is : ${myMap.size}`);
 
