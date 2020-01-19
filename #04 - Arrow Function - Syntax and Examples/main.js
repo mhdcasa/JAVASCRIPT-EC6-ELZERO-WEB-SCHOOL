@@ -2,8 +2,28 @@
 
 Arrow Function
 
-1->Don't replae regular function
+1->Don't replace regular function
 */
+
+
+
+
+let checkvariable = (x) =>{
+
+
+    y= 22;
+
+
+    if (x>y) {
+        return "oui x est superieur a y"
+    }else{
+        return "non ce cas y est superieur de x"
+    }
+
+}
+
+console.log(checkvariable(20));
+
 
 function regular(){
     return "this regulare function";
